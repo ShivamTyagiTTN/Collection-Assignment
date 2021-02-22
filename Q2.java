@@ -28,9 +28,9 @@ public class Q2
 {
     public static void main(String[] args) {
 
-        String str="aabcde ";
+        String str="aabcde";
         System.out.println(counter.countUnique(str));
     }
 }
 
-//Output: 5
+//Output: 4
