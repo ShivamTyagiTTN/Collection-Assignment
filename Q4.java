@@ -37,7 +37,7 @@ public class Q4
         ar.add(new Employees(31.5, 45634.0, "Vikas"));
         ar.add(new Employees(45.3, 23253.0,"Ashu"));
 
-        Collections.sort(ar,new sortbysalary().reversed();
+        Collections.sort(ar,new sortbysalary().reversed());
 
         for (Employees emp : ar) {
             System.out.println(emp);
