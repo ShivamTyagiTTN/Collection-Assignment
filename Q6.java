@@ -5,7 +5,7 @@ import java.util.*;
 public class Q6 {
     public static void main(String[] args) {
         int array[] = {5, 2, 8, 8, 5, 5, 8, 1, 1, 2};
-        HashMap<Integer, Integer> data = new HashMap<Integer, Integer>();
+        LinkedHashMap<Integer, Integer> data = new LinkedHashMap<Integer, Integer>();
 
         for (int i = 0; i < array.length; i++) {
             if (data.containsKey(array[i])) {
@@ -34,5 +34,5 @@ public class Q6 {
 //Output:
 //        5 -- 3
 //        8 -- 3
-//        1 -- 2
 //        2 -- 2
+//        1 -- 2
